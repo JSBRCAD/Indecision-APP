@@ -1,0 +1,38 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Justus Santanna",
+  "license": "MIT",
+  "homepage": "https://github.com/JSBRCAD/Indecision-APP.git",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "css-loader": "^5.0.2",
+    "gh-pages": "^3.1.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "normalize.css": "8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
